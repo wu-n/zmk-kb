@@ -4,7 +4,7 @@
 if SHIELD_ERGODASH_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Ergodash"
+    default "Ergo M"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

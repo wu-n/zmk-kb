@@ -1,6 +1,6 @@
 file_format: "1"
 id: ergodash
-name: Ergodash
+name: Ergo M
 type: shield
 url: https://github.com/omkbd/ErgoDash
 requires: [pro_micro]

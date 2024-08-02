@@ -3,9 +3,12 @@ id: ergodash
 name: Ergo M
 type: shield
 url: https://github.com/omkbd/ErgoDash
-requires: [pro_micro]
+requires:
+  - pro_micro
 features:
   - keys
+  - underglow
+  - backlight
 siblings:
   - ergodash_left
   - ergodash_right

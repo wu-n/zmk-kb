@@ -24,3 +24,6 @@ include:
     shield: ergodash_right
   - board: nice_nano_v2
     shield: settings_reset
+  - board: nice_nano_v2
+    shield: ergodash_dongle dongle_display
+

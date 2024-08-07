@@ -2,15 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: dongle
-      url-base: https://github.com/wu-n
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-dongle-display
-      remote: dongle
-      revision: main
   self:
     path: config

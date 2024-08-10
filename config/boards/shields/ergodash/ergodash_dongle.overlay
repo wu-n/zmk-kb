@@ -32,36 +32,14 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4)         RC(3,5) RC(3,6) RC(3,13) RC(3,12
     };
 };
 
-/*    
-*  the default oled is 0.96 inch if you use 1.3 inch oled with 1106 drive you should use this definition
-* &pro_micro_i2c {
-*     status = "okay";
-*     oled: sh1106@3c {
-*         compatible = "sinowealth,sh1106";
-*         reg = <0x3c>;
-*         width = <129>;
-*         height = <64>;
-*         segment-offset = <1>;
-*         page-offset = <0>;
-*         display-offset = <0>;
-*         multiplex-ratio = <63>;
-*         segment-remap;
-*         com-invdir;
-*         inversion-on;
-*         prechargep = <0x22>;
-*         };
-* }; 
-*/
-
 &pro_micro_i2c {
     status = "okay";
-    
-    oled: ssd1306@3c {
-        compatible = "solomon,ssd1306fb";
+    oled: sh1106@3c {
+        compatible = "sinowealth,sh1106";
         reg = <0x3c>;
-        width = <128>;
+        width = <129>;
         height = <64>;
-        segment-offset = <0>;
+        segment-offset = <2>;
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;

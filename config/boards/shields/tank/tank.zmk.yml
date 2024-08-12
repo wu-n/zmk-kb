@@ -1,13 +1,15 @@
 file_format: "1"
-id: tank
-name: Tank
+id: ergomini
+name: Ergo M
 type: shield
-url:
+url: https://github.com/omkbd/ErgoDash
 requires:
   - pro_micro
 exposes:
 features:
   - keys
+  - underglow
+  - backlight
 siblings:
-  - tank_left
-  - tank_right
+  - ergomini_left
+  - ergomini_right

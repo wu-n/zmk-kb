@@ -4,7 +4,7 @@
 if SHIELD_ERGO_CENTRAL_DONGLE || SHIELD_ERGO_CENTRAL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "TANK Master"
+    default "ERGO Mini"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

@@ -1,0 +1,15 @@
+file_format: "1"
+id: ergomini
+name: Ergo M
+type: shield
+url: https://github.com/omkbd/ErgoDash
+requires:
+  - pro_micro
+exposes:
+features:
+  - keys
+  - underglow
+  - backlight
+siblings:
+  - ergomini_left
+  - ergomini_right

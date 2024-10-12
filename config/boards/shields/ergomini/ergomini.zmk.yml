@@ -9,7 +9,6 @@ exposes:
 features:
   - keys
   - underglow
-  - backlight
 siblings:
   - ergomini_left
   - ergomini_right

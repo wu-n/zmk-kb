@@ -5,6 +5,9 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "ergomini-layouts.dtsi"
+
+&ergodash_mini_default_layout { transform = <&default_transform>; };
 
 / {
     chosen {

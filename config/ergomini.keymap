@@ -8,11 +8,13 @@
     macros {
         flash_macro: flash_macro {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <&bootloader>;
         };
 
         rgb_tog: rgb_tog {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <&rgb_ug RGB_TOG>;
         };
 
